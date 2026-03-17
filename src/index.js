@@ -1,3 +1,7 @@
+const CUSTOM_DOMAIN = "ucu.icu";
+const MODE = "production";
+const TARGET_UPSTREAM = "https://registry-1.docker.io";
+
 addEventListener("fetch", (event) => {
   event.passThroughOnException();
   event.respondWith(handleRequest(event.request));
