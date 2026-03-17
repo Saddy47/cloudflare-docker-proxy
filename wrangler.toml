@@ -8,7 +8,7 @@ port = 8787
 local_protocol = "http"
 
 [vars]
-CUSTOM_DOMAIN = "libcuda.so"
+CUSTOM_DOMAIN = "ucu.icu"
 
 [env.dev.vars]
 MODE = "debug"
